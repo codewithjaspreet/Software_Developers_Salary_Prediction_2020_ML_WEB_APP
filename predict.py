@@ -56,4 +56,4 @@ def show_predict_page():
         X = X.astype(float)
 
         salary = regressor.predict(X)
-        st.subheader(f"The estimated salary is Rupees {salary[0]*74:.2f}")
+        st.subheader(f"The estimated salary is Rupees {salary[0]:.2f}")
